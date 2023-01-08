@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  p {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .content {
+    width: 1080px;
+    margin: auto;
+  }
+  .cvr {
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+    padding-top: 200px;
+  }
+  
+  .cvr .main-t {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 20px;
+    font-family: "Work Sans";
+  }
+  .primary-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+    font-family: "Work Sans";
+  }
+  .primary-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Work Sans";
+    color: #ffffff;
+    background-color: #f15b22;
+    border-radius: 5px;
+    border: 0;
+    height: 64px;
+    width: 160px;
+  }
+  
+  .previous-year {
+    width: 100%;
+    height: 650px;
+    padding-top: 200px;
+  }
+  .year {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .year .year-1 {
+    height: 400px;
+    width: 400px;
+    background: rgba(241, 91, 34, 0.2);
+    border-radius: 50%;
+    position: relative;
+  }
+  .year .year-2 {
+    height: 400px;
+    width: 400px;
+    padding-left: 20px;
+  }
+  
+  .year .year-1 .year-img {
+    position: absolute;
+    width: 451px;
+    height: 500px;
+    bottom: 3px;
+    left: -18px;
+  }
+  .year-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 20px;
+  }
+    .year-para {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+  }
+  .year .year-2 ul li {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #444343;
+  }
+
+  i{
+    color: green;
+  }
+  
+  .plan {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .plan .p-content {
+    text-align: center;
+    width: 100%;
+  }
+  .p-contents {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .p-contents .web-develop img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 25px;
+  }
+  .p-contents .web-develop .plan-title {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #151414;
+    margin-bottom: 15px;
+  }
+  .p-contents .web-develop .plan-p {
+    font-family: "Work Sans";
+    color: #737272;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .rec {
+    width: 100%;
+    height: 300px;
+  }
+  .rec .rec-content {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(
+        to right,
+        rgba(241, 91, 34, 1),
+        rgba(255, 255, 255, 0)
+      ),
+      url(../images/watch.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .diff {
+    padding-top: 50px;
+    margin-left: 50px;
+    color: #fff;
+  }
+  .rec-button {
+    background-color: #fff;
+    color: #f15b22;
+    margin-left: 50px;
+  }
+  
+  .foot-m {
+    width: 100%;
+    height: 500px;
+    background-color: #151414;
+  }
+  .foot-m-content {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .foot-m-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-m-content .future {
+    width: 500px;
+  }
+  .foot-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "Work Sans";
+    margin-left: 50px;
+  }
+  .foot-m-content .future ul {
+    display: flex;
+  }
+  .foot-m-content .future ul li {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .foot-m-content .future ul li:nth-child(1) {
+    margin-left: 50px;
+  }
+  .center {
+    text-align: center;
+  }
+  .sbcr {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: "Work Sans";
+    margin-top: 50px;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+    height: 64px;
+    border-radius: 5px;
+    margin-left: 180px;
+  }
+   .email {
+    width: 300px;
+    padding-left: 30px;
+  }
+  .foot-button {
+    background-color: #fff;
+    color: #f15b22;
+  }
+  
